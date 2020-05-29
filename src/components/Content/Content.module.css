@@ -1,0 +1,31 @@
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.emptyMessages {
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 20px;
+  color: rgb(87, 86, 86);
+  font-weight: 700;
+}
+
+.xsShown {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .xsHidden {
+    display: none;
+  }
+}
+
+@media (min-width: 750px) {
+  .lgHidden {
+    display: none;
+  }
+}
+

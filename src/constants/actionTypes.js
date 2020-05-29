@@ -1,0 +1,14 @@
+//Bitcoin Actions
+export const SET_BITCOIN_RATE = 'SET_BITCOIN_RATE';
+
+//Conversations Actions
+export const DELETE_CONVERSATION = 'DELETE_CONVERSATION';
+export const CHANGE_STATUS = 'CHANGE_STATUS';
+export const CHANGE_BUYER_HAS_UNREAD_MESSAGES = 'CHANGE_BUYER_HAS_UNREAD_MESSAGES';
+export const CHANGE_SELLER_HAS_UNREAD_MESSAGES = 'CHANGE_SELLER_HAS_UNREAD_MESSAGES';
+
+//Messages Actions
+export const ADD_MESSAGE = 'ADD_MESSAGE';
+
+//Users Actions
+export const SWITCH_USER = 'SWITCH_USER';

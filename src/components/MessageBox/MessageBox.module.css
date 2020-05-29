@@ -1,0 +1,70 @@
+.container {
+  flex: 2;
+  background-color: #e6edf2;
+  padding: 0 80px;
+  position: relative;
+}
+
+.bin {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+}
+
+.binButton {
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background-color: rgb(79, 205, 125);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.switchButton {
+  background-color: rgb(79, 205, 125);
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  outline: none;
+  padding: 7px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.line {
+  margin: 0 -55px 20px -55px;
+  background-color: rgb(205, 205, 205);
+  height: 1px;
+}
+
+@media (max-width: 750px) {
+  .container {
+    padding: 0 80px;
+    margin-top: 80px;
+  }
+
+  .wrapper {
+    margin: 20px -60px;
+  }
+
+  .xsHidden {
+    display: none;
+  }
+  
+}

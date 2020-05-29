@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  text-decoration: none;
+  color: rgb(55, 55, 55);
+  background-color: #fff;
+}
+
+.selectedContainer {
+  margin-right: -15px;
+  padding-left: 35px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid rgb(185, 209, 255);
+  background-color: #e6edf2;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: rgb(82, 82, 82);
+}
+
+.indicator {
+  width: 7px;
+  height: 7px;
+  background-color: grey;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.avatarContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.line {
+  height: 1px;
+  background-color: #d8d7d7;
+  border: none;
+  margin: 0;
+}
+
+.paymentMethod {
+  font-weight: 600;
+}
+
+.paid {
+  text-transform: uppercase;
+  color: rgb(99, 205, 83);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.notPaid {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.text {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.activeIndicator {
+  background-color: rgb(99, 205, 83);
+}
+
